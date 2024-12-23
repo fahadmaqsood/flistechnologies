@@ -5,11 +5,13 @@
   color: #000;
   height: 56rem;
 }
+
 .contactdiv {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .top-para {
   text-align: center;
   width: 644px;
@@ -21,53 +23,64 @@
 
 .heading5 {
   color: #000 !important;
-  margin-left: 2rem;
-  width: 99px;
+  margin-left: 1rem;
+  /* width: 99px; */
   font-size: 24px;
   line-height: 36px;
   font-weight: 500;
 }
+
 .para p {
   margin-top: -20px;
-  margin-left: 2rem;
+  margin-left: 2.5rem;
   width: 212px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #000 !important;
 }
+
 .address {
   display: flex;
   flex-direction: column;
 }
+
 .icon-imgs {
   width: 22px;
   height: 27.59px;
 }
+
 .form-control {
   padding: 15px;
-  border-radius: 5px; /* Optional for rounded corners */
-  border: 1px solid #57007b; /* Keep purple border on focus */
-  box-shadow: 0 0 5px rgba(87, 0, 123, 0.5); /* Optional purple glow effect */
-  outline: none; /* Remove the browser's default focus outline */
+  border-radius: 5px;
+  /* Optional for rounded corners */
+  border: 1px solid #57007b;
+  /* Keep purple border on focus */
+  box-shadow: 0 0 5px rgba(87, 0, 123, 0.5);
+  /* Optional purple glow effect */
+  outline: none;
+  /* Remove the browser's default focus outline */
   margin: '5px';
 }
 
 #subject {
   border: 1px solid linear-gradient(#5550bc, #57007b);
 }
+
 .btn {
   margin: 25px;
   width: 200px;
 }
+
 /* Media Queries for Responsiveness */
 
 @media (max-width: 768px) {
   .contact-container {
     margin-left: 0rem;
     background-color: #f9f9ff;
-    width: 405px;
+    width: 100%;
   }
+
   .top-para {
     margin: 0;
     text-align: center;
@@ -78,14 +91,17 @@
     color: #9f9f9f;
     margin-top: -10px;
   }
+
   .tech-heading {
     font-size: 15.32px;
     line-height: 23px;
   }
+
   .contact-container {
     padding: 1rem;
     margin-top: 2rem;
   }
+
   .address {
     width: 300px;
     margin-left: 1rem;
@@ -96,11 +112,13 @@
     flex-direction: row;
     gap: 40px;
   }
+
   .address-col {
     display: flex;
     flex-direction: column;
     width: 64.55px;
   }
+
   .heading5 {
     width: 49px;
     font-size: 6.8px;
@@ -110,6 +128,7 @@
     margin-left: -5px;
     margin-top: 10px;
   }
+
   .para p {
     margin-top: -1.2rem;
     width: 72.52px;
@@ -118,10 +137,12 @@
     font-weight: 400;
     margin-left: 10px;
   }
+
   .iconimgs {
     width: 7px;
     height: 6.9px;
   }
+
   .img-title {
     display: flex;
   }

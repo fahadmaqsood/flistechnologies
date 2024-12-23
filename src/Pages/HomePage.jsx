@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <>
       <HeroSection />
-      {/* <Services /> */}
+      <Services />
       <AboutUs />
       <Projects />
       <Reviews />

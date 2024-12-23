@@ -13,7 +13,7 @@ function AppNavbar() {
     <Navbar expand='lg' className='custom-navbar'>
       <Container className='px-5'>
         <Navbar.Brand href='#' className='custom-logo'>
-          Flistechnologies
+        Flis Technologies
         </Navbar.Brand>
 
         <button className='navbar-toggler' onClick={toggleSidebar}>

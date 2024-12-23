@@ -60,7 +60,7 @@
     align-items: flex-start;
     margin-bottom: 0px;
     margin-top: -50px;
-    width: 405px;
+    width: 100%;
   }
 
   .hero-text {
@@ -112,8 +112,10 @@
 
   .hero-image {
     max-width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    margin: 1rem 0; /* Add spacing around the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 1rem 0;
+    /* Add spacing around the image */
     align-self: center;
   }
 }

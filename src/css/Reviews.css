@@ -2,12 +2,14 @@
   border: none !important;
   box-shadow: none !important;
 }
+
 .review-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
 }
+
 .Icons {
   display: flex;
   align-items: center;
@@ -57,6 +59,7 @@
   font-size: 0.8rem;
   color: #a0aec0;
 }
+
 .large-img {
   width: 190px !important;
   height: 190px !important;
@@ -86,6 +89,7 @@
   font-weight: bold;
   font-size: 1rem;
 }
+
 .paragraph {
   color: #c4c4c4 !important;
   font-size: 0.6rem;
@@ -95,22 +99,26 @@
   color: #a0aec0;
   font-size: 1rem;
 }
+
 @media only screen and (max-width: 768px) {
   .review-contain {
     margin-left: 0rem;
     margin-top: -0.8rem;
-    width: 405px;
+    /* width: 405px; */
     height: 370px;
   }
+
   .simple-line {
     width: 27.28px;
   }
+
   .customerdiv {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
   }
+
   .customer-heading {
     text-align: center;
     max-width: 188px;
@@ -118,6 +126,7 @@
     font-size: 14px;
     line-height: 22px;
   }
+
   .review-pragh {
     text-align: center;
     margin: 10px auto;
@@ -126,6 +135,7 @@
     line-height: 15px;
     font-size: 9.5px;
   }
+
   .carousel {
     display: flex;
     align-items: center;
@@ -140,6 +150,7 @@
     width: 38px;
     height: 5.91px;
   }
+
   .no-gutters {
     display: flex;
     width: 375px;
@@ -157,6 +168,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .review-col p {
     margin-left: -2rem;
     margin: 0;
@@ -165,19 +177,23 @@
     font-size: 4px;
     line-height: 8px;
   }
+
   .review-col img {
     width: 33.6px;
     height: 33.6px;
   }
+
   .rounded-circle {
     width: 40px;
     height: 78.09px;
     gap: 5.93px;
   }
+
   .large-img {
     width: 39.53px !important;
     height: 39.53px !important;
   }
+
   .highlightedparagraph {
     width: 40px;
     height: 9px;
@@ -185,6 +201,7 @@
     font-size: 7.12px;
     line-height: 8.61px;
   }
+
   .paragraph {
     width: 49px;
     height: 9px;
@@ -192,16 +209,19 @@
     font-size: 5.53px;
     line-height: 8.97px;
   }
+
   .right-comma {
     position: absolute;
-    right: 17%;
-    bottom: 0;
+    right: 15%;
+    bottom: -1px;
   }
+
   .left-comma {
     position: absolute;
-    left: 13%;
-    top: 0;
+    left: 11%;
+    top: -1px;
   }
+
   .Icons {
     display: flex;
     align-items: center;
@@ -209,7 +229,7 @@
     width: 17px;
     height: 17px;
     margin-bottom: -3rem;
-    margin-left: -1rem;
+    margin-left: -2rem;
     border-radius: 50%;
     position: relative;
   }

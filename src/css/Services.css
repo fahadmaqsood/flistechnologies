@@ -4,19 +4,24 @@
   position: relative;
   overflow: visible;
 }
+
 .services-row {
-  width: 200%; /* Expands the row to twice the viewport width */
-  max-width: 1320px; /* Removes the maximum width constraint */
+  width: 200%;
+  /* Expands the row to twice the viewport width */
+  /* max-width: 1320px; */
+  /* Removes the maximum width constraint */
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  margin: 0; /* Ensures no offset from the left */
-  padding: 0; /* Removes any padding that could push it right */
+  margin: 0;
+  /* Ensures no offset from the left */
+  padding: 0;
+  /* Removes any padding that could push it right */
 }
 
 .service-card {
   flex: 1;
-  max-width: calc(100% / 4 + 30px);
+  /* max-width: calc(100% / 4 + 30px); */
   height: 270px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -25,13 +30,17 @@
   position: relative;
 }
 
-.service-card.up {
-  transform: translateY(-30px); /* Move the active card up */
-  z-index: 1; /* Keep it on top */
+.service-card.up,
+.services-row .swiper-slide-active {
+  transform: translateY(-30px) !important;
+  /* Move the active card up */
+  z-index: 1;
+  /* Keep it on top */
 }
 
 .service-card.down {
-  transform: translateY(20px); /* Move the others down */
+  transform: translateY(20px);
+  /* Move the others down */
 }
 
 .service-card:hover {
@@ -39,9 +48,11 @@
   border: 2px solid rgba(85, 80, 188, 0.753);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
 .service-card:hover .title {
   color: #57007b;
 }
+
 .title {
   font-size: 1rem;
 }
@@ -68,7 +79,8 @@
 
 .half-circle {
   position: absolute;
-  top: -50px; /* Place it above the box */
+  top: -50px;
+  /* Place it above the box */
   left: 35px;
   width: 90px;
   height: 50px;
@@ -77,6 +89,7 @@
   border-top-right-radius: 100px;
   z-index: 10;
 }
+
 .down-circle {
   position: absolute;
   bottom: -50px;
@@ -132,6 +145,7 @@
 .active {
   border: 2px solid #5550bc;
 }
+
 .borders {
   margin-right: 5rem;
 }
@@ -149,6 +163,7 @@
   color: inherit;
   margin-right: 10px;
 }
+
 .discribtion {
   color: #4a5568;
 }
@@ -179,17 +194,21 @@
   right: 0;
   top: 0;
 }
+
 .boders {
   display: flex;
   margin-top: 2rem;
   margin-left: 15rem;
 }
+
 .grey-txt {
   color: gray;
 }
+
 .purple-txt {
   color: #57007b;
 }
+
 .down-box {
   display: flex;
   justify-content: space-around;
@@ -197,7 +216,8 @@
 
 @media (max-width: 768px) {
   .box {
-    height: auto; /* Adjust height for smaller screens */
+    height: auto;
+    /* Adjust height for smaller screens */
   }
 
   .services-row {
@@ -205,9 +225,12 @@
     align-items: center;
     gap: 12px;
   }
+
   .service-card {
-    max-width: 90%; /* Full-width on smaller screens */
-    height: 180px; /* Adjusted height for mobile */
+    /* max-width: 90%; */
+    /* Full-width on smaller screens */
+    /* height: 180px; */
+    /* Adjusted height for mobile */
   }
 
   .circle-container {
@@ -258,4 +281,23 @@
     flex-direction: column;
     align-items: center;
   }
+}
+
+
+
+
+
+
+/* Swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+
+  padding: 50px;
+}
+
+.swiper-slide {
+  display: flex !important;
+  align-items: center;
 }

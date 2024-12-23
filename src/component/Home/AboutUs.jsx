@@ -14,7 +14,7 @@ const AboutUs = () => {
             We Are Elevating Business Success Through Innovative Technology
           </h3>
           <p className=' heading-top-padding'>
-            At <strong style={{ color: '#5550bc' }}> Flistechnology</strong>,
+            At <strong style={{ color: '#5550bc' }}> Flis Technologies</strong>,
             our mission is to drive your business forward with cutting-edge
             technological solutions. We specialize in helping businesses
             optimize their operations, enhance their digital presence, and

@@ -22,14 +22,14 @@ const Contact = () => {
             <div className='mb-4 address-col'>
               {' '}
               <div className='img-title'>
-                <div className='icon-imgs'>
+                <div className='icon-imgs d-inline-block'>
                   <img
                     src={icon1}
                     alt='Address Icon'
                     className='me-2 iconimgs'
                   />
                 </div>
-                <h5 className='heading5'>Address</h5>
+                <h5 className='heading5 d-inline-block'>Address</h5>
               </div>
               <div className='para '>
                 <p>123 Street, Qasimabad, Hyderabad</p>
@@ -37,10 +37,10 @@ const Contact = () => {
             </div>
             <div className='mb-4 address-col'>
               <div className='img-title'>
-                <div className='icon-imgs'>
+                <div className='icon-imgs d-inline-block'>
                   <img src={icon2} alt='Phone Icon' className='me-2 iconimgs' />
                 </div>
-                <h5 className='heading5'>Phone</h5>
+                <h5 className='heading5 d-inline-block'>Phone</h5>
               </div>
               <div className='para'>
                 <p>Mobile: +92 123 456789 Hotline: +92 123 456789</p>
@@ -49,14 +49,14 @@ const Contact = () => {
             <div className='mb-4 address-col'>
               {' '}
               <div className='img-title'>
-                <div className='icon-imgs'>
+                <div className='icon-imgs d-inline-block'>
                   <img
                     src={icon3}
                     alt='Working Time Icon'
                     className='me-2 iconimgs'
                   />
                 </div>
-                <h5 className='heading5'>Working Time</h5>
+                <h5 className='heading5 d-inline-block'>Working Time</h5>
               </div>
               <div className='para'>
                 <p>
